@@ -1,1 +1,30 @@
+@font-face {
+    font-family: "Love Ya Like A Sister";
+    src: url('../fonts/love-ya-like-a-sister-solid.ttf');
+}
 
+@font-face {
+    font-family: "Droid Sans Mono";
+    src: url('../fonts/droid-sans-mono.ttf');
+}
+
+h1 {
+    font-family: "Love Ya Like A Sister";
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--white);
+}
+
+.titles p {
+    font-family: "Love Ya Like A Sister";
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--black);
+}
+
+#main-footer ul {
+    font-family: "Droid Sans Mono";
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--white);
+}
